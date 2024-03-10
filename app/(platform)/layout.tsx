@@ -10,7 +10,7 @@ const PlatformLayout = ({
   return (
     <ClerkProvider>
 
-
+        <Toaster />
         {children}
 
     </ClerkProvider>
