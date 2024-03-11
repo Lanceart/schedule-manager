@@ -39,7 +39,7 @@ const handler = async (data: InputType): Promise<ReturnType> => {
 
   revalidatePath(`/organization/${id}`);
   redirect(`/organization/${orgId}`);
-  return { data: board };
+  // return { data: board };
 };
 
 export const deleteBoard = createSafeAction(DeleteBoard, handler);
