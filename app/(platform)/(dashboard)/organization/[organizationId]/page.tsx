@@ -1,6 +1,6 @@
 // 'use client';
-import {create} from "@/actions/create-board";
-import { Board } from "./settings/board";
+// import {create} from "@/actions/create-board";
+// import { Board } from "./settings/board";
 import { Suspense } from "react";
 
 import { Separator } from "@/components/ui/separator";
@@ -11,7 +11,7 @@ import { BoardList } from "./_components/board-list";
 import { OrganizationSwitcher } from "@clerk/nextjs";
 import { Button } from "@/components/ui/button";
 import { db } from "@/lib/db";
-import {Form} from "./form";
+// import {Form} from "./form";
 const OrganizationIdPage = async() => {
   // const isPro = await checkSubscription();
 

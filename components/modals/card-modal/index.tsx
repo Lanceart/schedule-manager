@@ -10,7 +10,7 @@ import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { Header } from "./header";
 import { Description } from "./description";
 import { Actions } from "./actions";
-import { Activity } from "./activity";
+// import { Activity } from "./activity";
 import { fetcher } from "@/lib/fetcher";
 
 export const CardModal = () => {
