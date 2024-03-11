@@ -16,7 +16,7 @@ export const Hint = ({
   children,
   description,
   side = "bottom",
-  sideOffset = 0
+  sideOffset = 0 
 }: HintProps) => {
   return (
     <TooltipProvider>
